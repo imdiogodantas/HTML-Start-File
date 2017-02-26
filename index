@@ -1,0 +1,31 @@
+<!-- This declaration tells the browser what version of HTML the document is written in -->
+<!DOCTYPE html>
+
+<!-- Opening <html> tag specify the primary language for the document’s content, with the lang attribute.-->
+<html lang="en">
+
+<!-- Head tag which starts the document header -->
+<head>
+
+<!-- The first bit in the header should be a <meta> tag that specifies the character encoding of the page. -->
+<meta charset="utf-8">
+
+<!-- After the encoding, we can actually start writing the first piece of actual content in the page – the title -->
+<title>This is the title of this page</title>
+
+<!-- Adding a <link> tag allows you to link a CSS file to control page style -->
+<link rel="stylesheet" href="style.css">
+
+<!-- If you want to link a JavaScript script to the page, and the script is designed to be invoked from the header, insert a <script> tag at this point -->
+<script src="script.js"></script>
+
+<!-- Head closing tag. -->
+</head>
+
+<!-- After the <body> tag starts your page content. -->
+  <body>
+    <!-- Body content goes here -->
+  </body>
+
+<!-- HTML closing tag. -->
+</html>
